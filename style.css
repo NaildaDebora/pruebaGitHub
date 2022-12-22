@@ -1,6 +1,6 @@
 body{
-    background-color: burlywood;
-    color: black;
+    background-color: rgb(167, 154, 138);
+    color: white;
     font-family: monospace;
     padding: 0;
     margin: 0;
@@ -13,7 +13,7 @@ h1{
 }
 
 .bar{
-    background-color: cadetblue;
+    background-color: rgb(19, 14, 14);
     padding: 12px;
     display: flex;
 }
@@ -21,4 +21,25 @@ h1{
 .logo{
     width: 50px;
     height: 50px;
+}
+
+.container{
+    margin-top: 30px;
+    padding: 0 60px 0 60px;
+}
+
+.post{
+    background-color: #282c34;
+    margin-bottom: 15px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 12px;
+}
+
+.post h4{
+    color: #98c379;
+}
+
+
+.post span{
+    color: #61afef;
 }
